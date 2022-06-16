@@ -4,7 +4,7 @@ import Home from "./routes/Home";
 import Menu
     from "./routes/Menu";
 const AppRouter = () => {
-    const [isHome, setIsHome] = useState(false);
+    const [isHome, setIsHome] = useState(true);
     return (
         <Router>
             <Switch>
